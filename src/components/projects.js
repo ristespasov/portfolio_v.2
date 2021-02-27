@@ -19,10 +19,10 @@ const Projects = () => {
                                     <p>{project.stack}</p>
                                     <div className="project-button-container">
                                         <div className="btn-primary">
-                                            <a><span className="text-color-main">{project.btn_live}</span></a>
+                                            <a href={project.live} target="_blank"><span className="text-color-main">{project.btn_live}</span></a>
                                         </div>
                                         <div className="btn-secondary">
-                                            <a><span className="text-color-main">{project.btn_source}</span></a>
+                                            <a href={project.github} target="_blank"><span className="text-color-main">{project.btn_source}</span></a>
                                         </div>
                                     </div>
                                 </div>

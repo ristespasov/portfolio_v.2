@@ -1,5 +1,5 @@
 import React from 'react'
-import dataContact from "../data/data_contact";
+import dataContact from "../data/data_contact"
 import { Fade } from 'react-reveal'
 
 const Contact = () => {
@@ -14,7 +14,7 @@ const Contact = () => {
         </Fade>
         <Fade bottom duration={1000} delay={600} distance="30px">
           <div className="btn-primary">
-            <a><span className="">{dataContact.btn_email}</span></a>
+            <a href="mailto:ristespasov@hotmail.com"><span className="">{dataContact.btn_email}</span></a>
           </div>
         </Fade>
       </div>

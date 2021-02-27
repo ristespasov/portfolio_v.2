@@ -3,7 +3,7 @@
     clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
     -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
     text-align: center;
-    color: white;
+    color: $color-white;
     padding-top: 3%;
 
     .section-title {
@@ -23,6 +23,8 @@
             border-image: $background-default;
             -o-border-image: $background-default;
             border-image-slice: 1;
+            text-decoration: none;
+            color: $color-white;
     
             &::after{
                 background-image: $background-default;
