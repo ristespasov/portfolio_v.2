@@ -1,0 +1,54 @@
+#footer {
+    background-color: #333333;
+    color: gray;
+
+    .go-to-top {
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: fit-content;
+        color: $color-white;
+        cursor: pointer;
+
+        &:hover{
+            margin-top: -5px;
+            transition: all .2s ease-in;
+        }
+
+        svg {
+            width: 26px;
+            height: 26px;
+        }
+    }
+
+    .social-icons {
+        width: fit-content;
+        margin: 40px auto 0 auto;
+
+        a {
+            color: $color-white;
+        }
+    }
+
+    hr {
+        width: 50%;
+        border: none;
+        border-top: 2px solid gray;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #footer {
+        .go-to-top {
+            &:hover{
+                margin-top: 0px;
+            }
+        }
+    }
+}

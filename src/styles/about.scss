@@ -1,0 +1,65 @@
+#about {
+    background: $background-main;
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    color: $color-white;
+    padding: 5% 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .about-description div {
+            margin-bottom: 10px;
+        }
+
+        .about-image {
+            width: 30%;
+    
+            img {
+                width: 100%;
+            }
+        }
+    
+        .about-text {
+            width: 55%;
+
+            .tech-list {
+                columns: 2;
+            }
+            
+        }
+    }  
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #about {
+        clip-path: none;
+        -webkit-clip-path: none;
+        .container {
+            .about-text {
+                width: 65%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #about {
+        clip-path: none;
+        -webkit-clip-path: none;
+
+        .container {
+            flex-direction: column;
+
+            .about-image {
+                width: 90%;
+            }
+            .about-text {
+                width: 90%;
+                margin-top: 20px;
+            }
+        }
+    }
+}

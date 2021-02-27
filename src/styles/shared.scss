@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: $color-default;
+}
+
+// Container
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+// Section titles
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+// Buttons
+.btn-primary {
+    width: fit-content;
+    cursor: pointer;
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        border-width: 2px;
+        border-style: solid;
+        border-image: $background-main;
+        -o-border-image: $background-main;
+        border-image-slice: 1;
+        position: relative;
+        transition: all .35s;
+
+        span {
+            position: relative;
+            z-index: 2;
+        }
+
+        &::after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background-image: $background-main;
+            transition: all .35s;
+        }
+
+        &:hover span{
+            background-image: -moz-none;
+            background-image: -webkit-none;
+            background-image: -webkit-none;
+            background-image: -o-none;
+            background-image:none;
+            background-color: $color-white;
+        }
+
+        &:hover:after{
+            width: 100%;
+        }
+    }
+}
+
+.btn-secondary {
+    width: fit-content;
+    cursor: pointer;
+    
+    a {
+        display: block;
+        padding: 6px 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+
+        span {
+            position: relative;
+            z-index: 2;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .btn-primary, .btn-secondary {
+        a {
+            &::after{
+                background-image: none;
+            }
+    
+            &:hover span{
+                background-image: $background-main;
+            }
+        }
+    }
+}
+
+// Buttons text
+.text-color-main {
+    background-image: $background-main;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+// Social icons
+.social-icons{
+    display: flex;
+
+    a {
+        margin: 20px;
+
+        svg {
+            width: 36px;
+            height: 36px;
+        }
+        
+        &:hover div {
+            margin-top: -5px;
+            transition: all .2s ease-in;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .social-icons {
+        a {
+            &:hover div, &:focus div {
+                margin-top: 0px;
+            }
+        }
+    }
+}

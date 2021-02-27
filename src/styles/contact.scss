@@ -1,0 +1,60 @@
+#contact {
+    background: $background-main;
+    clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+    -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+
+    .section-title {
+        margin-bottom: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+    
+    .btn-primary {
+        font-size: 1.5rem;
+        margin: 0 auto;
+
+        a {
+            display: block;
+            border-image: $background-default;
+            -o-border-image: $background-default;
+            border-image-slice: 1;
+    
+            &::after{
+                background-image: $background-default;
+            }
+    
+            &:hover span{
+                @extend .text-color-main;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #contact {
+        clip-path: none;
+        -webkit-clip-path: none;
+        padding: 5% 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #contact {
+        .btn-primary {
+            a {
+                &::after{
+                    background-image: none;
+                }
+        
+                &:hover span{
+                    background-image: $background-default;
+                }
+            }
+        }
+    }
+}
