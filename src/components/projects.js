@@ -18,12 +18,18 @@ const Projects = () => {
                                     <p>{project.description}</p>
                                     <p>{project.stack}</p>
                                     <div className="project-button-container">
-                                        <div className="btn-primary">
-                                            <a href={project.live} target="_blank"><span className="text-color-main">{project.btn_live}</span></a>
-                                        </div>
-                                        <div className="btn-secondary">
-                                            <a href={project.github} target="_blank"><span className="text-color-main">{project.btn_source}</span></a>
-                                        </div>
+                                        {
+                                            project.live ?
+                                                <div className="btn-primary">
+                                                    <a href={project.live} target="_blank"><span className="text-color-main">{project.btn_live}</span></a>
+                                                </div> : null
+                                        }
+                                        {
+                                            project.github ?
+                                                <div className="btn-secondary">
+                                                    <a href={project.github} target="_blank"><span className="text-color-main">{project.btn_source}</span></a>
+                                                </div> : null
+                                        }
                                     </div>
                                 </div>
                             </Fade>
