@@ -1,0 +1,29 @@
+{
+    "Hi": {
+        "1": "Hola, mi nombre es",
+        "2": "Soy",
+        "3": "Desarrollador frontend",
+        "4": "ocasionalmente un diseñador.",
+        "more": "Saber más"
+    },
+    "About": {
+        "section_title": "Sobre mí",
+        "1": "Desarrollador web front-end creativo y orientado a los detalles con experiencia en diseño receptivo y desarrollo de JavaScript.",
+        "2": "Construyo y mantengo sitios web que son accesibles para todos los usuarios, independientemente de su dispositivo. De vez en cuando estoy planificando y creando diseños con un diseño limpio y moderno optimizado para el rendimiento.",
+        "3": "Mi principal objetivo es aportar valor a clientes y empresas mediante la entrega de soluciones eficientes y elegantes.",
+        "4": "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
+    },
+    "Projects": {
+        "section_title": "Proyectos",
+        "3": "Plataforma web con una amplia oferta deportiva y recreativa. Se desarrolla como un proyecto de equipo de empresa en el que estaba trabajando como desarrollador frontend.",
+        "2": "Una aplicación web receptiva que proporciona datos del total de casos infectados, recuperados, activos y de muerte por coronavirus a nivel mundial y por país. Los datos se presentan con números, gráficos y un mapa.",
+        "1": "Weathery proporciona datos sobre las condiciones meteorológicas actuales, el pronóstico y el índice de calidad del aire. Contiene un buscador de ubicación automático y permite una búsqueda personalizada.",
+        "live": "Ver en vivo",
+        "code": "Código fuente"
+    },
+    "Contact": {
+        "section_title": "Contacto",
+        "p": "¿Quieren saber más?",
+        "email": "Hablemos"
+    }
+}

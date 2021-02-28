@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './i18n'
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.Fragment>
-    <App />
+    <Suspense fallback={(<div>Loading...</div>)}>
+      <App />
+    </Suspense>
   </React.Fragment>,
   document.getElementById('root')
 );

@@ -11,6 +11,7 @@ $background-default: linear-gradient(135deg, $color-white, $color-white-shade);
 $background-main: linear-gradient(135deg, $color-primary, $color-secondary);
 
 // Sections
+@import './language-selection.scss';
 @import './header.scss';
 @import './about.scss';
 @import './projects.scss';

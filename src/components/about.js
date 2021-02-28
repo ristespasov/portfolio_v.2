@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import dataAbout from '../data/data_about'
 import { Fade } from 'react-reveal'
 
+// Context
+import Context from '../context/context'
+
 const About = () => {
+  const { t } = useContext(Context);
+
   return (
     <div id="about">
       <Fade bottom duration={1000} delay={600} distance="30px">
-        <div className="section-title">{dataAbout.section_title}</div>
+        <div className="section-title">{t(dataAbout.section_title)}</div>
       </Fade>
       <div className="container">
         <Fade left duration={1000} delay={600} distance="30px">
@@ -19,7 +24,7 @@ const About = () => {
             <div className="about-description">
               {
                 dataAbout.text_paragraphs.map((p, i) => (
-                  <div key={i}>{p.paragraph}</div>
+                  <div key={i}>{t(p.paragraph)}</div>
                 ))
               }
             </div>

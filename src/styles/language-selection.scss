@@ -1,0 +1,20 @@
+#language-selection {
+    position: absolute;
+    top: 10px;
+    right: 10%;
+    
+    button {
+        color: $color-default;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+            background-image: $background-main;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}

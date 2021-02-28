@@ -1,7 +1,7 @@
 const dataContact = {
-    section_title: "Contact",
-    paragraph: "You want to hire me?",
-    btn_email: "Let's talk"
+    section_title: "Contact.section_title",
+    paragraph: "Contact.p",
+    btn_email: "Contact.email"
 }
 
 export default dataContact

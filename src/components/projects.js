@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import projectsData from '../data/data_projects'
 import { Fade } from 'react-reveal'
 
+// Context
+import Context from '../context/context'
+
 const Projects = () => {
+    const { t } = useContext(Context);
+
     return (
         <div id="projects">
             <Fade bottom duration={1000} delay={600} distance="30px">
-                <div className="section-title">{projectsData.section_title}</div>
+                <div className="section-title">{t(projectsData.section_title)}</div>
             </Fade>
             <div className="container">
                 {
@@ -15,19 +20,19 @@ const Projects = () => {
                             <Fade left duration={1000} delay={600} distance="30px">
                                 <div className="project-description-container">
                                     <h3>{project.title}</h3>
-                                    <p>{project.description}</p>
+                                    <p>{t(project.description)}</p>
                                     <p>{project.stack}</p>
                                     <div className="project-button-container">
                                         {
                                             project.live ?
                                                 <div className="btn-primary">
-                                                    <a href={project.live} target="_blank"><span className="text-color-main">{project.btn_live}</span></a>
+                                                    <a href={project.live} target="_blank"><span className="text-color-main">{t(project.btn_live)}</span></a>
                                                 </div> : null
                                         }
                                         {
                                             project.github ?
                                                 <div className="btn-secondary">
-                                                    <a href={project.github} target="_blank"><span className="text-color-main">{project.btn_source}</span></a>
+                                                    <a href={project.github} target="_blank"><span className="text-color-main">{t(project.btn_source)}</span></a>
                                                 </div> : null
                                         }
                                     </div>
