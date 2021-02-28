@@ -54,7 +54,7 @@
                 }
         
                 &:hover span{
-                    background-image: $background-default;
+                    background-image: $background-default !important;
                 }
             }
         }
