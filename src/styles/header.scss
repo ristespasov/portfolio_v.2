@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     height: 100vh;
-    background-color: $background-default;
 
     .header-socials-container {
         display: flex;
@@ -13,10 +12,6 @@
             width: 20%;
             height: 5px;
             background-image: $background-main;
-        }
-
-        .social-icons a {
-            color: $color-default;
         }
     }
 

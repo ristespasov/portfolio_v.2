@@ -1,16 +1,9 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
-// Variables
-$color-white: #FFFFFF;
-$color-white-shade: #f5f5f5;
-$color-default: #272341;
-$color-primary: #02aab0;
-$color-secondary: #00cdac;
-$background-default: linear-gradient(135deg, $color-white, $color-white-shade);
-$background-main: linear-gradient(135deg, $color-primary, $color-secondary);
-
 // Sections
+@import './variables.scss';
+@import './theme-toggler.scss';
 @import './language-selection.scss';
 @import './header.scss';
 @import './about.scss';
@@ -18,3 +11,86 @@ $background-main: linear-gradient(135deg, $color-primary, $color-secondary);
 @import './contact.scss';
 @import './footer.scss';
 @import './shared.scss';
+
+// Light & Dark theme classes
+.light {
+    background-color: $background-default;
+    color: $color-default;
+
+    #language-selection {
+        button {
+            color: $color-default;
+    
+            &:focus {
+                background-image: $background-main;
+            }
+        }
+    }
+
+    #header {
+        
+        .header-socials-container {
+            .social-icons a {
+                color: $color-default;
+            }
+        }
+    }
+
+    #about {
+        background: $background-main;
+        color: $color-white;
+    }
+
+    #contact {
+        background: $background-main;
+        color: $color-white;
+    }
+}
+
+.dark {
+    background-color: $color-main-dark;
+    color: $color-default-dark;
+
+    #language-selection {
+        button {
+            color: $color-default-dark;
+    
+            &:focus {
+                background-image: $background-main;
+            }
+        }
+    }
+
+    #header {
+        
+        .header-socials-container {
+            .social-icons a {
+                color: $color-default-dark;
+            }
+        }
+    }
+
+    #about {
+        background: $background-main-dark;
+        color: $color-default-dark;
+    }
+
+    #contact {
+        background: $background-main-dark;
+        color: $color-default-dark;
+    }
+
+    #footer {
+        background-color: transparent;
+    
+        .go-to-top {
+            color: $color-default-dark;
+        }
+    
+        .social-icons {
+            a {
+                color: $color-default-dark;
+            }
+        }
+    }
+}

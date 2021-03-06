@@ -4,13 +4,13 @@ import React, { useContext } from 'react';
 import Context from '../context/context';
 
 const Language = () => {
-    const { handleSelect } = useContext(Context);
+    const { handleLanguage } = useContext(Context);
 
     return (
         <div id="language-selection">
-            <button onClick={() => handleSelect('en')}>English</button>
-            <button onClick={() => handleSelect('es')}>Español</button>
-            <button onClick={() => handleSelect('sv')}>Svenska</button>
+            <button onClick={() => handleLanguage('en')}>English</button>
+            <button onClick={() => handleLanguage('es')}>Español</button>
+            <button onClick={() => handleLanguage('sv')}>Svenska</button>
         </div>
     );
 }

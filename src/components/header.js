@@ -29,7 +29,7 @@ const Header = () => {
                 <Fade left duration={1000} delay={500} distance="30px">
                     <div className="hero-text-container">
                         <div>{t('Hi.1')} <span>Riste Spasov.</span></div>
-                        <div>{t('Hi.2')} <span className="text-color-main">{t('Hi.3')}</span></div>
+                        <div>{t('Hi.2')} <span className="text-color-main">{t('Hi.3')},</span></div>
                         <div>{t('Hi.4')}</div>
                     </div>
                 </Fade>

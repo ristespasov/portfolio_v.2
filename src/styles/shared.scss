@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: $color-default;
 }
 
 // Container
@@ -85,6 +84,7 @@ body {
 .btn-secondary {
     width: fit-content;
     cursor: pointer;
+    margin-top: 2px;
     
     a {
         display: block;
@@ -98,6 +98,11 @@ body {
             z-index: 2;
         }
     }
+
+    &:hover {
+        margin-left: 5px;
+        transition: all .2s ease-in-out;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -110,6 +115,10 @@ body {
             &:hover span{
                 background-image: $background-main;
             }
+        }
+
+        &:hover {
+            margin-left: 0px;
         }
     }
 }

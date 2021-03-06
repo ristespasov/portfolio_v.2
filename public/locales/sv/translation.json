@@ -8,14 +8,14 @@
     },
     "About": {
         "section_title": "Om mig",
-        "1": "Kreativ och detaljorienterad Front-end webbutvecklare med erfarenhet av responsiv design och JavaScript-utveckling.",
+        "1": "Kreativ och detaljorienterad Frontend webbutvecklare med erfarenhet av responsiv design och JavaScript-utveckling.",
         "2": "Jag bygger och underhåller webbplatser som är tillgängliga för alla användare, oavsett enhet. Ibland planerar jag och skapar layouter med en ren, modern design optimerad för prestanda.",
         "3": "Mitt huvudsyfte är att ge kunder och företag värde genom att leverera effektiva och eleganta lösningar.",
         "4": "Här är några tekniker som jag nyligen har arbetat med:"
     },
     "Projects": {
         "section_title": "Projekt",
-        "3": "Webbplattform med ett brett utbud av sport- och fritidserbjudanden. Det är utvecklat som ett företagsteamprojekt där jag arbetade som frontend-utvecklare.",
+        "3": "Webbplattform med ett brett utbud av sport- och fritidserbjudanden. Det utvecklades som ett företagsprojekt där jag arbetade som frontend-utvecklare.",
         "2": "En responsiv webbapp som ger data om totalt infekterade, återställda, aktiva och dödsfall från Coronavirus globalt och per land. Uppgifterna presenteras med siffror, diagram och en karta.",
         "1": "Weathery tillhandahåller data för aktuella väderförhållanden, prognos och luftkvalitetsindex. Innehåller en automatisk lokaliseringssökare och tillåter en anpassad sökning.",
         "live": "Se live",

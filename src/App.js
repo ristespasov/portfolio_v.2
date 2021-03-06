@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 
 // Style
 import './styles/global.scss'
@@ -7,7 +7,8 @@ import './styles/global.scss'
 import Context from './context/context';
 
 // Components
-import Language from "./components/language";
+import Theme from './components/theme'
+import Language from './components/language'
 import Header from './components/header'
 import About from './components/about'
 import Projects from './components/projects'
@@ -19,18 +20,26 @@ import { useTranslation } from 'react-i18next'
 
 const App = () => {
   const { t, i18n } = useTranslation();
+  const [darkMode, setDarkMode] = useState(false);
 
-  const handleSelect = lang => {
+  const handleLanguage = lang => {
     i18n.changeLanguage(lang);
   }
+
+  const handleTheme = () => {
+    setDarkMode(!darkMode);
+  }
+
+  console.log(darkMode);
 
   useEffect(() => {
     i18n.changeLanguage('en');
   }, [])
 
   return (
-    <div className="App">
-      <Context.Provider value={{ t, handleSelect }}>
+    <div className={darkMode ? "dark" : "light"}>
+      <Context.Provider value={{ t, handleLanguage, darkMode, handleTheme }}>
+        <Theme />
         <Language />
         <Header />
         <About />

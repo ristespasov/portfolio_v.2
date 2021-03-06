@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const dataSocials = [
     {
@@ -7,15 +7,15 @@ const dataSocials = [
         icon: <FaGithub />
     },
     {
+        name: "Email",
+        link: "mailto:ristespasov@hotmail.com",
+        icon: <FaEnvelope />
+    },
+    {
         name: "Linkedin",
         link: "https://www.linkedin.com/in/riste-spasov-3a24b717b/",
         icon: <FaLinkedin />
-    },
-    {
-        name: "Facebook",
-        link: "https://www.facebook.com/riste.spasov.12",
-        icon: <FaFacebook />
-    },
+    }
 ]
 
 export default dataSocials
