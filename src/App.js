@@ -30,8 +30,6 @@ const App = () => {
     setDarkMode(!darkMode);
   }
 
-  console.log(darkMode);
-
   useEffect(() => {
     i18n.changeLanguage('en');
   }, [])

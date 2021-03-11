@@ -22,7 +22,7 @@
             color: $color-default;
     
             &:focus {
-                background-image: $background-main;
+                color: $color-primary;
             }
         }
     }
@@ -54,11 +54,11 @@
     #language-selection {
         button {
             color: $color-default-dark;
-    
+
             &:focus {
-                background-image: $background-main;
+                color: $color-primary;
             }
-        }
+        }   
     }
 
     #header {
