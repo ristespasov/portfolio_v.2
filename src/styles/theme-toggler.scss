@@ -42,7 +42,7 @@
     margin: auto 0;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    box-shadow: 0 0px 15px #2020203d;
+    box-shadow: 0 0px 15px rgba(39, 35, 65, 0.5);
     background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +60,8 @@
     -webkit-transform: translateX(24px);
     -ms-transform: translateX(24px);
     transform: translateX(24px);
-    background: white url('https://i.ibb.co/FxzBYR9/night.png');
+    box-shadow: 0 0px 15px rgba(102, 106, 112, 0.5);
+    background: $color-main-dark url('https://i.ibb.co/FxzBYR9/night.png');
     background-repeat: no-repeat;
     background-position: center;
   }
