@@ -18,14 +18,14 @@
 
         a {
             display: block;
-            border-image: $background-default;
-            -o-border-image: $background-default;
+            border-image: $background-default-light;
+            -o-border-image: $background-default-light;
             border-image-slice: 1;
             text-decoration: none;
-            color: $color-white;
+            color: $color-main-light;
     
             &::after{
-                background-image: $background-default;
+                background-image: $background-default-light;
             }
     
             &:hover span{
@@ -52,7 +52,7 @@
                 }
         
                 &:hover span{
-                    background-image: $background-default !important;
+                    background-image: $background-default-light;
                 }
             }
         }

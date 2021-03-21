@@ -1,11 +1,22 @@
 import project_1 from './images/1.png'
 import project_2 from './images/2.png'
 import project_3 from './images/3.png'
+import project_4 from './images/4.png'
 
 const projectsData = {
     section_title: "Projects.section_title",
     projects: [{
         title: "Freefor",
+        description: "Projects.4",
+        stack: "MERN stack, Material UI",
+        image: project_4,
+        btn_live: "Projects.live",
+        btn_source: "Projects.code",
+        github: '',
+        live: 'https://app.freefor.ch/'
+    },
+    {
+        title: "Language school",
         description: "Projects.3",
         stack: "MERN stack, Material UI",
         image: project_3,

@@ -1,12 +1,12 @@
 // Variables
 
 // Light theme
-$color-white: #FFFFFF;
-$color-default: #272341;
-$color-primary: #02aab0;
-$color-secondary: #00cdac;
-$background-default:linear-gradient(135deg, $color-white, $color-white);
-$background-main: linear-gradient(135deg, $color-primary, $color-secondary);
+$color-main-light: #FFFFFF;
+$color-default-light: #272341;
+$color-primary-light: #02aab0;
+$color-secondary-light: #00cdac;
+$background-default-light:linear-gradient(135deg, $color-main-light, $color-main-light);
+$background-main-light: linear-gradient(135deg, $color-primary-light, $color-secondary-light);
 
 // Dark theme
 $color-main-dark: #0d1117;

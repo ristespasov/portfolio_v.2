@@ -44,8 +44,8 @@ body {
         text-decoration: none;
         border-width: 2px;
         border-style: solid;
-        border-image: $background-main;
-        -o-border-image: $background-main;
+        border-image: $background-main-light;
+        -o-border-image: $background-main-light;
         border-image-slice: 1;
         position: relative;
         transition: all .35s;
@@ -62,7 +62,7 @@ body {
             left: 0;
             width: 0;
             height: 100%;
-            background-image: $background-main;
+            background-image: $background-main-light;
             transition: all .35s;
         }
 
@@ -72,7 +72,7 @@ body {
             background-image: -webkit-none;
             background-image: -o-none;
             background-image:none;
-            background-color: $color-white;
+            background-color: $color-main-light;
         }
 
         &:hover:after{
@@ -113,7 +113,7 @@ body {
             }
     
             &:hover span{
-                background-image: $background-main;
+                background-image: $background-main-light;
             }
         }
 
@@ -125,7 +125,7 @@ body {
 
 // Buttons text
 .text-color-main {
-    background-image: $background-main;
+    background-image: $background-main-light;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

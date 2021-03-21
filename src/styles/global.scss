@@ -14,15 +14,16 @@
 
 // Light & Dark theme classes
 .light {
-    background-color: $background-default;
-    color: $color-default;
+    background-color: $background-default-light;
+    color: $color-default-light;
+    transition: .5s ease-in-out;
 
     #language-selection {
         button {
-            color: $color-default;
+            color: $color-default-light;
     
             &:focus {
-                color: $color-primary;
+                color: $color-primary-light;
             }
         }
     }
@@ -31,32 +32,33 @@
         
         .header-socials-container {
             .social-icons a {
-                color: $color-default;
+                color: $color-default-light;
             }
         }
     }
 
     #about {
-        background: $background-main;
-        color: $color-white;
+        background: $background-main-light;
+        color: $color-main-light;
     }
 
     #contact {
-        background: $background-main;
-        color: $color-white;
+        background: $background-main-light;
+        color: $color-main-light;
     }
 }
 
 .dark {
     background-color: $color-main-dark;
     color: $color-default-dark;
+    transition: .5s ease-in-out;
 
     #language-selection {
         button {
             color: $color-default-dark;
 
             &:focus {
-                color: $color-primary;
+                color: $color-primary-dark;
             }
         }   
     }
