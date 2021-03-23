@@ -8,14 +8,14 @@
     },
     "About": {
         "section_title": "Sobre mí",
-        "1": "Desarrollador web frontend creativo y orientado a los detalles con experiencia en diseño receptivo y desarrollo de JavaScript.",
-        "2": "Construyo y mantengo sitios web que son accesibles para todos los usuarios, independientemente de su dispositivo. De vez en cuando estoy planificando y creando diseños con un diseño limpio y moderno optimizado para el rendimiento.",
+        "1": "Desarrollador web apasionado por el desarrollo de frontend con experiencia en diseño receptivo y JavaScript.",
+        "2": "Desarrollo sitios web y aplicaciones web con interfaces receptivas y estéticamente agradables que se adaptan a todo tipo de dispositivos o navegadores.",
         "3": "Mi principal objetivo es aportar valor a clientes y empresas mediante la entrega de soluciones eficientes y elegantes.",
         "4": "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
     },
     "Projects": {
         "section_title": "Proyectos",
-        "4": "Plataforma web con una amplia oferta deportiva y recreativa. Se desarrolla como un proyecto de equipo de empresa en el que trabajaba como desarrollador frontend.",
+        "4": "Plataforma de reservas con una amplia oferta deportiva y recreativa. Se desarrolla como un proyecto de equipo de empresa en el que trabajaba como desarrollador frontend.",
         "2": "Una aplicación web receptiva que proporciona datos del total de casos infectados, recuperados, activos y de muerte por coronavirus a nivel mundial y por país. Los datos se presentan con números, gráficos y un mapa.",
         "1": "Weathery proporciona datos sobre las condiciones meteorológicas actuales, el pronóstico y el índice de calidad del aire. Contiene un buscador de ubicación automático y permite una búsqueda personalizada.",
         "live": "Ver en vivo",

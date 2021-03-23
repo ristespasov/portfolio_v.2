@@ -19,24 +19,26 @@ const About = () => {
             <img src={dataAbout.image} alt="Image" />
           </div>
         </Fade>
-        <Fade right duration={1000} delay={600} distance="30px">
-          <div className="about-text">
-            <div className="about-description">
-              {
-                dataAbout.text_paragraphs.map((p, i) => (
-                  <div key={i}>{t(p.paragraph)}</div>
-                ))
-              }
-            </div>
-            <div className="tech-list">
-              {
-                dataAbout.tech_paragraphs.map((p, i) => (
-                  <div key={i}>&#8226; {p}</div>
-                ))
-              }
-            </div>
+        <div className="about-text">
+          <div className="about-description">
+            {
+              dataAbout.text_paragraphs.map((p, i) => (
+                <Fade key={i} right duration={1000} delay={600} distance="30px">
+                  <div>{t(p.paragraph)}</div>
+                </Fade>
+              ))
+            }
           </div>
-        </Fade>
+          <div className="tech-list">
+            {
+              dataAbout.tech_paragraphs.map((p, i) => (
+                <Fade key={i} right duration={1000} delay={600} distance="30px">
+                  <div>&#8226; {p}</div>
+                </Fade>
+              ))
+            }
+          </div>
+        </div>
       </div>
     </div>
   )
