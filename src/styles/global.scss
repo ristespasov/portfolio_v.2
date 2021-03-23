@@ -80,6 +80,21 @@
     #contact {
         background: $background-main-dark;
         color: $color-default-dark;
+
+        .btn-primary {
+    
+            a {
+                border-image: none;
+                -o-border-image: none;
+                border-color: $color-default-dark;
+                color: $color-default-dark;
+        
+                &::after{
+                    background-image: none;
+                    background-color: $color-default-dark;
+                }
+            }
+        }
     }
 
     #footer {

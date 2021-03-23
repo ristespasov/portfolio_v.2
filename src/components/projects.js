@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import projectsData from '../data/data_projects'
-import { Fade } from 'react-reveal'
+import { Fade, Zoom } from 'react-reveal'
 
 // Context
 import Context from '../context/context'
@@ -17,7 +17,7 @@ const Projects = () => {
                 {
                     projectsData.projects.map((project, i) => (
                         <div key={i} className="project-container">
-                            <Fade left duration={1000} delay={600} distance="30px">
+                            <Zoom duration={1000} delay={600} >
                                 <div className="project-description-container">
                                     <h3>{project.title}</h3>
                                     <p>{t(project.description)}</p>
@@ -37,12 +37,12 @@ const Projects = () => {
                                         }
                                     </div>
                                 </div>
-                            </Fade>
-                            <Fade right duration={1000} delay={600} distance="30px">
+                            </Zoom>
+                            <Zoom duration={1000} delay={600}>
                                 <div className="project-image-container">
                                     <img src={project.image} alt={project.title} />
                                 </div>
-                            </Fade>
+                            </Zoom>
                         </div>
                     ))
                 }

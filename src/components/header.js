@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import dataSocials from '../data/data_socials'
 import { Link } from 'react-scroll'
-import { Slide, Fade } from 'react-reveal'
+import { Slide, Fade, Zoom } from 'react-reveal'
 
 // Context
 import Context from '../context/context'
@@ -18,9 +18,11 @@ const Header = () => {
                         <div className="social-icons">
                             {
                                 dataSocials.map((social, i) => (
-                                    <a key={i} href={social.link} target="_blank">
-                                        <div>{social.icon}</div>
-                                    </a>
+                                    <Zoom key={i} duration={1000} delay={1000}>
+                                        <a href={social.link} target="_blank">
+                                            <div>{social.icon}</div>
+                                        </a>
+                                    </Zoom>
                                 ))
                             }
                         </div>
@@ -29,7 +31,7 @@ const Header = () => {
                 <Fade left duration={1000} delay={500} distance="30px">
                     <div className="hero-text-container">
                         <div>{t('Hi.1')} <span>Riste Spasov.</span></div>
-                        <div>{t('Hi.2')} <span className="text-color-main">{t('Hi.3')},</span></div>
+                        <div>{t('Hi.2')} <span className="text-color-main">{t('Hi.3')}</span></div>
                         <div>{t('Hi.4')}</div>
                     </div>
                 </Fade>

@@ -3,6 +3,8 @@ import dataSocials from '../data/data_socials';
 import { FaAngleUp } from 'react-icons/fa'
 import { Link } from 'react-scroll';
 
+import { Zoom } from 'react-reveal'
+
 const Footer = () => {
   return (
     <div id="footer">
@@ -15,9 +17,11 @@ const Footer = () => {
         <div className="social-icons">
           {
             dataSocials.map((social, i) => (
-              <a key={i} href={social.link} target="_blank">
-                <div>{social.icon}</div>
-              </a>
+              <Zoom key={i}>
+                <a href={social.link} target="_blank">
+                  <div>{social.icon}</div>
+                </a>
+              </Zoom>
             ))
           }
         </div>
