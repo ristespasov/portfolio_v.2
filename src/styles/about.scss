@@ -34,7 +34,7 @@
     }  
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
     #about {
         clip-path: none;
         -webkit-clip-path: none;
@@ -46,7 +46,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     #about {
         clip-path: none;
         -webkit-clip-path: none;
@@ -55,7 +55,7 @@
             flex-direction: column;
 
             .about-image {
-                width: 90%;
+                width: 50%;
             }
             .about-text {
                 width: 90%;
