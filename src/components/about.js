@@ -14,11 +14,6 @@ const About = () => {
         <div className="section-title">{t(dataAbout.section_title)}</div>
       </Fade>
       <div className="container">
-        <Fade left duration={1000} delay={600} distance="30px">
-          <div className="about-image">
-            <img src={dataAbout.image} alt="Image" />
-          </div>
-        </Fade>
         <div className="about-text">
           <div className="about-description">
             {
