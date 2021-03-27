@@ -15,7 +15,7 @@ const Contact = () => {
           <div className="section-title">{t(dataContact.section_title)}</div>
         </Fade>
         <Fade left duration={1000} delay={600} distance="30px">
-          <p>{t(dataContact.paragraph)}</p>
+          <div className="proposal">{t(dataContact.paragraph)}</div>
         </Fade>
         <Fade bottom duration={1000} delay={600} distance="30px">
           <div className="btn-primary">

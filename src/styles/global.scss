@@ -75,6 +75,10 @@
     #about {
         background: $background-main-dark;
         color: $color-default-dark;
+
+        path {
+            fill: $color-default-dark !important;
+        }
     }
 
     #contact {
