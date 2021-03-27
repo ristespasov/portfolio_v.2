@@ -7,15 +7,7 @@
     .container {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-
-        .about-image {
-            width: 30%;
-            
-            img {
-                width: 100%;
-            }
-        }
+        justify-content: center;
 
         .about-description div {
             margin-bottom: 10px;
@@ -57,11 +49,6 @@
         -webkit-clip-path: none;
 
         .container {
-            flex-direction: column;
-
-            .about-image {
-                width: 50%;
-            }
             .about-text {
                 width: 90%;
                 margin-top: 20px;
