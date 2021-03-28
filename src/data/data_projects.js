@@ -12,7 +12,7 @@ const projectsData = {
         image: project_4,
         btn_live: "Projects.live",
         btn_source: "Projects.code",
-        github: '',
+        code: '',
         live: 'https://app.freefor.ch/'
     },
     {
@@ -22,7 +22,7 @@ const projectsData = {
         image: project_3,
         btn_live: "Projects.live",
         btn_source: "Projects.code",
-        github: '',
+        code: '',
         live: 'https://app.freefor.ch/'
     },
     {
@@ -32,7 +32,7 @@ const projectsData = {
         image: project_2,
         btn_live: "Projects.live",
         btn_source: "Projects.code",
-        github: 'https://github.com/ristespasov/COVID19-tracker',
+        code: 'https://github.com/ristespasov/COVID19-tracker',
         live: 'https://covid-19-tracker-2020project.netlify.app/'
     },
     {
@@ -42,7 +42,7 @@ const projectsData = {
         image: project_1,
         btn_live: "Projects.live",
         btn_source: "Projects.code",
-        github: 'https://github.com/ristespasov/Weathery',
+        code: 'https://github.com/ristespasov/Weathery',
         live: 'https://weathery-19project.netlify.app/'
     }]
 }

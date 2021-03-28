@@ -3,7 +3,7 @@
     align-items: center;
     height: 100vh;
 
-    .header-socials-container {
+    .header__socials__container {
         display: flex;
         align-items: center;
         margin-bottom: 5%;
@@ -15,13 +15,13 @@
         }
     }
 
-    .hero-text-container {
+    .hero__text__container {
         font-size: 3.5rem;
         font-weight: 700;
         margin-bottom: 5%;
     }
 
-    .btn-primary {
+    .btn__primary {
         font-size: 1.5rem;
     }
 }
@@ -31,10 +31,10 @@
         .container {
             margin: 0 5%;
             
-            .header-socials-container, .hero-text-container, .btn-primary {
+            .header__socials__container, .hero__text__container, .btn__primary {
                 margin-left: 5%;
             }
-            .hero-text-container {
+            .hero__text__container {
                 font-size: 2.5rem;
             }
         }
@@ -44,12 +44,12 @@
 @media screen and (max-width: 767px) {
     #header {
         .container {
-            .hero-text-container {
+            .hero__text__container {
                 text-align: center;
                 font-size: 2rem;
             }
 
-            .btn-primary {
+            .btn__primary {
                 margin: 50px auto 0 auto;
             }
         }

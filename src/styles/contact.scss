@@ -4,7 +4,7 @@
     text-align: center;
     padding: 5% 0;
 
-    .section-title {
+    .title__default {
         margin-bottom: 5%;
     }
 
@@ -13,26 +13,9 @@
         margin-bottom: 2%;
     }
     
-    .btn-primary {
+    .btn__secondary {
         font-size: 1.5rem;
         margin: 0 auto;
-
-        a {
-            display: block;
-            border-image: $background-default-light;
-            -o-border-image: $background-default-light;
-            border-image-slice: 1;
-            text-decoration: none;
-            color: $color-main-light;
-    
-            &::after{
-                background-image: $background-default-light;
-            }
-    
-            &:hover span{
-                @extend .text-color-main;
-            }
-        }
     }
 }
 

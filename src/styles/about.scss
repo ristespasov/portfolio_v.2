@@ -9,16 +9,16 @@
         align-items: center;
         justify-content: center;
 
-        .about-description div {
+        .about__description div {
             margin-bottom: 10px;
             line-height: 1.5;
             text-align: center;
         }
     
-        .about-text {
+        .about__text {
             width: 55%;
 
-            .tech-list {
+            .tech__list {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
@@ -36,7 +36,7 @@
         clip-path: none;
         -webkit-clip-path: none;
         .container {
-            .about-text {
+            .about__text {
                 width: 70%;
             }
         }

@@ -1,5 +1,10 @@
 import React, { useContext } from 'react'
+
+// Data
 import dataAbout from '../data/data_about'
+
+// Components
+import Title from '../components/Title'
 import { Fade } from 'react-reveal'
 
 // Context
@@ -11,11 +16,11 @@ const About = () => {
   return (
     <div id="about">
       <Fade bottom duration={1000} delay={600} distance="30px">
-        <div className="section-title">{t(dataAbout.section_title)}</div>
+        <Title>{t(dataAbout.section_title)}</Title>
       </Fade>
       <div className="container">
-        <div className="about-text">
-          <div className="about-description">
+        <div className="about__text">
+          <div className="about__description">
             {
               dataAbout.text_paragraphs.map((p, i) => (
                 <Fade key={i} right duration={1000} delay={600} distance="30px">
@@ -24,7 +29,7 @@ const About = () => {
               ))
             }
           </div>
-          <div className="tech-list">
+          <div className="tech__list">
             {
               dataAbout.tech_paragraphs.map((p, i) => (
                 <Fade key={i} right duration={1000} delay={600} distance="30px">

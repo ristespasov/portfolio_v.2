@@ -7,13 +7,13 @@ import './styles/global.scss'
 import Context from './context/context';
 
 // Components
-import Theme from './components/theme'
-import Language from './components/language'
-import Header from './components/header'
-import About from './components/about'
-import Projects from './components/projects'
-import Contact from './components/contact'
-import Footer from './components/footer'
+import Theme from './components/Theme'
+import Language from './components/Language'
+import Header from './containers/Header'
+import About from './containers/About'
+import Projects from './containers/Projects'
+import Contact from './containers/Contact'
+import Footer from './containers/Footer'
 
 // i18n
 import { useTranslation } from 'react-i18next'

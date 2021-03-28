@@ -17,114 +17,8 @@ body {
     }
 }
 
-// Section titles
-.section-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-@media screen and (max-width: 767px) {
-    .section-title {
-        font-size: 2rem;
-    }
-}
-
-// Buttons
-.btn-primary {
-    width: fit-content;
-    cursor: pointer;
-
-    a {
-        display: block;
-        padding: 6px 12px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        text-decoration: none;
-        border-width: 2px;
-        border-style: solid;
-        border-image: $background-main-light;
-        -o-border-image: $background-main-light;
-        border-image-slice: 1;
-        position: relative;
-        transition: all .35s;
-
-        span {
-            position: relative;
-            z-index: 2;
-        }
-
-        &::after{
-            position: absolute;
-            content: "";
-            top: 0;
-            left: 0;
-            width: 0;
-            height: 100%;
-            background-image: $background-main-light;
-            transition: all .35s;
-        }
-
-        &:hover span{
-            background-image: -moz-none;
-            background-image: -webkit-none;
-            background-image: -webkit-none;
-            background-image: -o-none;
-            background-image:none;
-            background-color: $color-main-light;
-        }
-
-        &:hover:after{
-            width: 100%;
-        }
-    }
-}
-
-.btn-secondary {
-    width: fit-content;
-    cursor: pointer;
-    margin-top: 2px;
-    
-    a {
-        display: block;
-        padding: 6px 12px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        text-decoration: none;
-
-        span {
-            position: relative;
-            z-index: 2;
-        }
-    }
-
-    &:hover {
-        margin-left: 5px;
-        transition: all .2s ease-in-out;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .btn-primary, .btn-secondary {
-        a {
-            &::after{
-                background-image: none;
-            }
-    
-            &:hover span{
-                background-image: $background-main-light;
-            }
-        }
-
-        &:hover {
-            margin-left: 0px;
-        }
-    }
-}
-
 // Buttons text
-.text-color-main {
+.text__color__main {
     background-image: $background-main-light;
     background-clip: text;
     -webkit-background-clip: text;
@@ -132,7 +26,7 @@ body {
 }
 
 // Social icons
-.social-icons{
+.social__icons{
     display: flex;
 
     a {
@@ -151,7 +45,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    .social-icons {
+    .social__icons {
         a {
             &:hover div, &:focus div {
                 margin-top: 0px;

@@ -1,5 +1,11 @@
 import React, { useContext } from 'react'
+
+// Data
 import dataContact from "../data/data_contact"
+
+// Components
+import Title from '../components/Title'
+import Button from '../components/Button'
 import { Fade } from 'react-reveal'
 
 // Context
@@ -12,15 +18,18 @@ const Contact = () => {
     <div id="contact">
       <div className="container">
         <Fade top duration={1000} delay={600} distance="30px">
-          <div className="section-title">{t(dataContact.section_title)}</div>
+          <Title styleClass="title__default">{t(dataContact.section_title)}</Title>
         </Fade>
         <Fade left duration={1000} delay={600} distance="30px">
           <div className="proposal">{t(dataContact.paragraph)}</div>
         </Fade>
         <Fade bottom duration={1000} delay={600} distance="30px">
-          <div className="btn-primary">
-            <a href="mailto:ristespasov@hotmail.com"><span className="">{t(dataContact.btn_email)}</span></a>
-          </div>
+          <Button
+            styleClass="btn__secondary"
+            link={dataContact.mailto}
+          >
+            {t(dataContact.btn_email)}
+          </Button>
         </Fade>
       </div>
     </div>

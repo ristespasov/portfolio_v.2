@@ -30,8 +30,8 @@
 
     #header {
         
-        .header-socials-container {
-            .social-icons a {
+        .header__socials__container {
+            .social__icons a {
                 color: $color-default-light;
             }
         }
@@ -65,8 +65,8 @@
 
     #header {
         
-        .header-socials-container {
-            .social-icons a {
+        .header__socials__container {
+            .social__icons a {
                 color: $color-default-dark;
             }
         }
@@ -85,8 +85,7 @@
         background: $background-main-dark;
         color: $color-default-dark;
 
-        .btn-primary {
-    
+        .btn__secondary {   
             a {
                 border-image: none;
                 -o-border-image: none;
@@ -97,6 +96,10 @@
                     background-image: none;
                     background-color: $color-default-dark;
                 }
+
+                &:hover span{
+                    background-image: $background-main-light;
+                }
             }
         }
     }
@@ -104,11 +107,11 @@
     #footer {
         background-color: transparent;
     
-        .go-to-top {
+        .go__to__top {
             color: $color-default-dark;
         }
     
-        .social-icons {
+        .social__icons {
             a {
                 color: $color-default-dark;
             }

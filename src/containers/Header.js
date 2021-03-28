@@ -1,5 +1,8 @@
 import React, { useContext } from 'react';
 import dataSocials from '../data/data_socials'
+
+// Components
+import Button from '../components/Button'
 import { Link } from 'react-scroll'
 import { Slide, Fade, Zoom } from 'react-reveal'
 
@@ -13,9 +16,9 @@ const Header = () => {
         <div id="header">
             <div className="container">
                 <Slide left duration={1000} delay={500}>
-                    <div className="header-socials-container">
+                    <div className="header__socials__container">
                         <div className="line"></div>
-                        <div className="social-icons">
+                        <div className="social__icons">
                             {
                                 dataSocials.map((social, i) => (
                                     <Zoom key={i} duration={1000} delay={1000}>
@@ -29,20 +32,20 @@ const Header = () => {
                     </div>
                 </Slide>
                 <Fade left duration={1000} delay={500} distance="30px">
-                    <div className="hero-text-container">
+                    <div className="hero__text__container">
                         <div>{t('Hi.1')} <span>Riste Spasov.</span></div>
-                        <div>{t('Hi.2')} <span className="text-color-main">{t('Hi.3')}</span></div>
+                        <div>{t('Hi.2')} <span className="text__color__main">{t('Hi.3')}</span></div>
                         <div>{t('Hi.4')}</div>
                     </div>
                 </Fade>
                 <Fade bottom duration={1000} delay={500} distance="30px">
-                    <div>
-                        <div className="btn-primary">
-                            <Link to="about" smooth duration={1000}>
-                                <span className="text-color-main">{t('Hi.more')}</span>
-                            </Link>
-                        </div>
-                    </div>
+                    <Link to="about" smooth duration={1000}>
+                        <Button
+                            styleClass="btn__primary"
+                        >
+                            {t('Hi.more')}
+                        </Button>
+                    </Link>
                 </Fade>
             </div>
         </div>
