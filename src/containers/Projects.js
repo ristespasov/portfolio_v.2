@@ -6,6 +6,7 @@ import projectsData from '../data/data_projects'
 // Components
 import Title from '../components/Title'
 import Project from '../components/Project'
+import Button from '../components/Button'
 import { Fade } from 'react-reveal'
 
 // Context
@@ -35,6 +36,13 @@ const Projects = () => {
                         />
                     ))
                 }
+                <Button
+                    styleClass="btn__tertiary btn__more"
+                    link="https://github.com/ristespasov"
+                    target="_blank"
+                >
+                    {t('Projects.more')} &#10140;
+                </Button>
             </div>
         </div >
     )
