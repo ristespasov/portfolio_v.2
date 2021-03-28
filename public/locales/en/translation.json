@@ -15,11 +15,13 @@
     },
     "Projects": {
         "section_title": "Projects",
-        "4": "Booking platform with a wide range of sports and recreation offers. It is developed as a company team project where I was working as a frontend developer.",
-        "2": "A responsive web app that provides data of total infected, recovered, active, and death cases from Coronavirus globally and by country. The data is presented with numbers, charts, and a map.",
-        "1": "Weathery provides data for current weather conditions, forecast, and air quality index. Contains an auto location finder and allows a custom search.",
+        "5": "Booking platform with a wide range of sports and recreation offers. It is developed as a company team project where I was working as a frontend developer.",
+        "3": "A responsive web app that provides data of total infected, recovered, active, and death cases from Coronavirus globally and by country. The data is presented with numbers, charts, and a map.",
+        "2": "Weathery provides data for current weather conditions, forecast, and air quality index. Contains an auto location finder and allows a custom search.",
+        "1": "The previous version of my personal portfolio website. Contains functional contact form with input validation.",
         "live": "See live",
-        "code": "Source code"
+        "code": "Source code",
+        "more": "More projects"
     },
     "Contact": {
         "section_title": "Contact",

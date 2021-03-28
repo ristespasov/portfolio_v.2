@@ -1,14 +1,21 @@
 #projects {
     padding: 5% 0;
 
-    .project__container:nth-child(1), .project__container:nth-child(3) {
+    .project__container:nth-child(1), .project__container:nth-child(3), .project__container:nth-child(5) {
         flex-direction: row-reverse;
+    }
+
+    .btn__more {
+        margin: 0 auto;
+        a {
+            padding: 0;
+        }
     }
 }
 
 @media screen and (max-width: 991px) {
     #projects {
-        .project__container:nth-child(1), .project__container:nth-child(3) {
+        .project__container:nth-child(1), .project__container:nth-child(3), .project__container:nth-child(5) {
             flex-direction: column;
         }
     }

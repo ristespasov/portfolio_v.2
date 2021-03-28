@@ -20,7 +20,7 @@ const Button = ({ styleClass, children, link, target }) => (
 
 Button.propTypes = {
     styleClass: PropTypes.string,
-    children: PropTypes.string.isRequired,
+    children: PropTypes.any.isRequired,
     link: PropTypes.string,
     target: PropTypes.string
 }

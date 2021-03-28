@@ -15,11 +15,13 @@
     },
     "Projects": {
         "section_title": "Projekt",
-        "4": "Bokningsplattform med ett brett utbud av sport- och rekreationserbjudanden. Det utvecklades som ett företagsprojekt där jag arbetade som frontend-utvecklare.",
-        "2": "En responsiv webbapp som ger data om totalt infekterade, återställda, aktiva och dödsfall från Coronavirus globalt och per land. Uppgifterna presenteras med siffror, diagram och en karta.",
-        "1": "Weathery tillhandahåller data för aktuella väderförhållanden, prognos och luftkvalitetsindex. Innehåller en automatisk lokaliseringssökare och tillåter en anpassad sökning.",
+        "5": "Bokningsplattform med ett brett utbud av sport- och rekreationserbjudanden. Det utvecklades som ett företagsprojekt där jag arbetade som frontend-utvecklare.",
+        "3": "En responsiv webbapp som ger data om totalt infekterade, återställda, aktiva och dödsfall från Coronavirus globalt och per land. Uppgifterna presenteras med siffror, diagram och en karta.",
+        "2": "Weathery tillhandahåller data för aktuella väderförhållanden, prognos och luftkvalitetsindex. Innehåller en automatisk lokaliseringssökare och tillåter en anpassad sökning.",
+        "1": "Den tidigare versionen av min personliga portföljwebbplats. Innehåller funktionellt kontaktformulär med ingångsvalidering.",
         "live": "Se live",
-        "code": "Källkod"
+        "code": "Källkod",
+        "more": "Fler projekt"
     },
     "Contact": {
         "section_title": "Kontakt",
