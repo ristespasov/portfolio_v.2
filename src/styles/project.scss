@@ -11,16 +11,16 @@
         margin-top: 0;
     }
 
-    .project__description__container {
+    .project--description__container {
         width: 40%;
         line-height: 1.5;
     }
 
-    .project__button__container {
+    .project--button__container {
         display: flex;
     }
 
-    .project__image__container {
+    .project--image__container {
         width: 50%;
 
         img {
@@ -37,17 +37,27 @@
                 margin-bottom: 50px;
             }
 
-            .project__description__container {
+            .project--description__container {
                 width: 100%;
                 margin-bottom: 20px;
             }
 
-            .project__button__container {
+            .project--button__container {
                 display: flex;
             }
 
-            .project__image__container {
+            .project--image__container {
                 width: 100%;
             }
         }
+}
+
+@media screen and (max-width: 768px) {
+    .project__container {
+        .btn--tertiary {
+            &:hover{
+                margin-left: 0;
+            }
+        }
+    }
 }

@@ -24,14 +24,14 @@
     }
 }
 
-.text__color__main {
+.text--color--main {
     background-image: $background-main-light;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.after-effect {
+.after--effect {
     content: "";
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@
     transition: all .35s;
 }
 
-.btn__primary {
+.btn--primary {
     a {
         border-width: 2px;
         border-style: solid;
@@ -50,12 +50,12 @@
         border-image-slice: 1;
 
         &::after{
-            @extend .after-effect;
+            @extend .after--effect;
             background-image: $background-main-light;
         }
 
         span {
-            @extend .text__color__main;
+            @extend .text--color--main;
         }
 
         &:hover span{
@@ -69,7 +69,7 @@
     }
 }
 
-.btn__secondary {
+.btn--secondary {
     a {
         border-width: 2px;
         border-style: solid;
@@ -79,24 +79,24 @@
         color: $color-main-light;
 
         &::after{
-            @extend .after-effect;
+            @extend .after--effect;
             background-image: $background-default-light;
         }
 
         &:hover span{
-            @extend .text__color__main;
+            @extend .text--color--main;
         }
     }
 }
 
-.btn__tertiary {
+.btn--tertiary {
     border-width: 2px;
     border-style: solid;
     border-color: transparent;
     
     a {
         span {
-            @extend .text__color__main;
+            @extend .text--color--main;
         }
     }
 
@@ -107,7 +107,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .btn__primary {
+    .btn--primary {
         a {
             &::after{
                 background-image: none;
@@ -119,7 +119,7 @@
         }
     }
 
-    .btn__secondary {
+    .btn--secondary {
         a {
             &::after{
                 background-image: none;
@@ -132,7 +132,7 @@
         }
     }
 
-    .btn__tertiary {
+    .btn--tertiary {
         a {
             &:hover {
                 margin-left: 0px;

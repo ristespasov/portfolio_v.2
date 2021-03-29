@@ -9,12 +9,12 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="container">
-        <div className="go__to__top">
+        <div className="goto--top">
           <Link to="header" smooth duration={1000}>
             <FaAngleUp />
           </Link>
         </div>
-        <div className="social__icons">
+        <div className="social--icons">
           {
             dataSocials.map((social, i) => (
               <Zoom key={i}>

@@ -29,7 +29,7 @@ const About = () => {
               ))
             }
           </div>
-          <div className="tech__list">
+          <div className="about__list">
             {
               dataAbout.tech_paragraphs.map((p, i) => (
                 <Fade key={i} right duration={1000} delay={600} distance="30px">

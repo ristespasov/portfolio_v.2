@@ -18,7 +18,7 @@ const Projects = () => {
     return (
         <div id="projects">
             <Fade bottom duration={1000} delay={600} distance="30px">
-                <Title styleClass="title__default">{t(projectsData.section_title)}</Title>
+                <Title>{t(projectsData.section_title)}</Title>
             </Fade>
             <div className="container">
                 {
@@ -37,7 +37,7 @@ const Projects = () => {
                     ))
                 }
                 <Button
-                    styleClass="btn__tertiary btn__more"
+                    styleClass="btn--tertiary btn--more"
                     link="https://github.com/ristespasov"
                     target="_blank"
                 >

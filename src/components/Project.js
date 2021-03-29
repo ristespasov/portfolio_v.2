@@ -8,15 +8,15 @@ import { Zoom } from 'react-reveal'
 const Project = ({ title, description, stack, live, code, btnLive, btnSource, imgSrc, imgAlt }) => (
     <div className="project__container">
         <Zoom duration={1000} delay={600} >
-            <div className="project__description__container">
+            <div className="project--description__container">
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <p>{stack}</p>
-                <div className="project__button__container">
+                <div className="project--button__container">
                     {
                         live ?
                             <Button
-                                styleClass="btn__primary"
+                                styleClass="btn--primary"
                                 link={live}
                                 target="_blank"
                             >
@@ -26,7 +26,7 @@ const Project = ({ title, description, stack, live, code, btnLive, btnSource, im
                     {
                         code ?
                             <Button
-                                styleClass="btn__tertiary"
+                                styleClass="btn--tertiary"
                                 link={code}
                                 target="_blank"
                             >
@@ -37,7 +37,7 @@ const Project = ({ title, description, stack, live, code, btnLive, btnSource, im
             </div>
         </Zoom>
         <Zoom duration={1000} delay={600}>
-            <div className="project__image__container">
+            <div className="project--image__container">
                 <img src={imgSrc} alt="Project" />
             </div>
         </Zoom>

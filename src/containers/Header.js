@@ -16,9 +16,9 @@ const Header = () => {
         <div id="header">
             <div className="container">
                 <Slide left duration={1000} delay={500}>
-                    <div className="header__socials__container">
+                    <div className="header--socials__container">
                         <div className="line"></div>
-                        <div className="social__icons">
+                        <div className="social--icons">
                             {
                                 dataSocials.map((social, i) => (
                                     <Zoom key={i} duration={1000} delay={1000}>
@@ -32,16 +32,16 @@ const Header = () => {
                     </div>
                 </Slide>
                 <Fade left duration={1000} delay={500} distance="30px">
-                    <div className="hero__text__container">
+                    <div className="hero--text__container">
                         <div>{t('Hi.1')} <span>Riste Spasov.</span></div>
-                        <div>{t('Hi.2')} <span className="text__color__main">{t('Hi.3')}</span></div>
+                        <div>{t('Hi.2')} <span className="text--color--main">{t('Hi.3')}</span></div>
                         <div>{t('Hi.4')}</div>
                     </div>
                 </Fade>
                 <Fade bottom duration={1000} delay={500} distance="30px">
                     <Link to="about" smooth duration={1000}>
                         <Button
-                            styleClass="btn__primary"
+                            styleClass="btn--primary"
                         >
                             {t('Hi.more')}
                         </Button>

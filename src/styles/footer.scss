@@ -2,7 +2,7 @@
     background-color: #333333;
     color: gray;
 
-    .go__to__top {
+    .goto--top {
         position: absolute; 
         left: 0; 
         right: 0; 
@@ -23,7 +23,7 @@
         }
     }
 
-    .social__icons {
+    .social--icons {
         width: fit-content;
         margin: 40px auto 0 auto;
 
@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 767px) {
     #footer {
-        .go-to-top {
+        .goto--top {
             &:hover{
                 margin-top: 0px;
             }

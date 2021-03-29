@@ -29,9 +29,8 @@
     }
 
     #header {
-        
-        .header__socials__container {
-            .social__icons a {
+        .header--socials__container {
+            .social--icons a {
                 color: $color-default-light;
             }
         }
@@ -64,9 +63,8 @@
     }
 
     #header {
-        
-        .header__socials__container {
-            .social__icons a {
+        .header--socials__container {
+            .social--icons a {
                 color: $color-default-dark;
             }
         }
@@ -85,7 +83,7 @@
         background: $background-main-dark;
         color: $color-default-dark;
 
-        .btn__secondary {   
+        .btn--secondary {   
             a {
                 border-image: none;
                 -o-border-image: none;
@@ -107,11 +105,11 @@
     #footer {
         background-color: transparent;
     
-        .go__to__top {
+        .goto--top {
             color: $color-default-dark;
         }
     
-        .social__icons {
+        .social--icons {
             a {
                 color: $color-default-dark;
             }

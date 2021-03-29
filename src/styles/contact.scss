@@ -4,7 +4,7 @@
     text-align: center;
     padding: 5% 0;
 
-    .title__default {
+    .title--default {
         margin-bottom: 5%;
     }
 
@@ -13,7 +13,7 @@
         margin-bottom: 2%;
     }
     
-    .btn__secondary {
+    .btn--secondary {
         font-size: 1.5rem;
         margin: 0 auto;
     }
@@ -27,11 +27,11 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     #contact {
         padding-top: 0;
         
-        .btn-primary {
+        .btn--secondary {
             a {
                 &::after{
                     background-image: none;

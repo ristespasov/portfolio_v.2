@@ -16,7 +16,7 @@ Title.propTypes = {
 }
 
 Title.defaultProps = {
-    styleClass: 'title__default'
+    styleClass: 'title--default'
 }
 
 export default Title;
