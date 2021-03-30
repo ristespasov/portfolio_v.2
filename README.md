@@ -16,3 +16,4 @@ My personal portfolio, a fully responsive website built in React.js and Sass. Tr
 - Animations
 - Reusable components
 - Mapping array data
+- JavaScript (E6 syntax)
