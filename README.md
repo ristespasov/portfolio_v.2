@@ -17,3 +17,4 @@ My personal portfolio, a fully responsive website built in React.js and Sass. Tr
 - Reusable components
 - Mapping array data
 - JavaScript (E6 syntax)
+- CSS BEM naming convention
