@@ -1,7 +1,7 @@
 # Portfolio v.2
 
 ## About
-My personal portfolio, a fully responsive website built in React.js and Sass. Translated into 3 languages English, Spanish & Swedish, and allows a switch between Light & Dark mode.
+My personal portfolio, a fully responsive website built in React.js and Sass. Translated into 3 languages English, Spanish & Swedish, allowing a switch between Light & Dark mode.
 
 ## Technologies & Tools
 - React.js
