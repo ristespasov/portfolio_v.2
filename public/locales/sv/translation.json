@@ -16,6 +16,7 @@
     "Projects": {
         "section_title": "Projekt",
         "5": "Bokningsplattform med ett brett utbud av sport- och rekreationserbjudanden. Det utvecklades som ett företagsprojekt där jag arbetade som frontend-utvecklare.",
+        "4": "Frilansprojekt utvecklat för en språkskola. Översatt till två språk, makedonska och engelska med i18next. Innehåller funktionellt kontaktformulär med ingångsvalidering.",
         "3": "En responsiv webbapp som ger data om totalt infekterade, återställda, aktiva och dödsfall från Coronavirus globalt och per land. Uppgifterna presenteras med siffror, diagram och en karta.",
         "2": "Weathery tillhandahåller data för aktuella väderförhållanden, prognos och luftkvalitetsindex. Innehåller en automatisk lokaliseringssökare och tillåter en anpassad sökning.",
         "1": "Den tidigare versionen av min personliga portföljwebbplats. Innehåller funktionellt kontaktformulär med ingångsvalidering.",

@@ -16,6 +16,7 @@
     "Projects": {
         "section_title": "Proyectos",
         "5": "Plataforma de reservas con una amplia oferta deportiva y recreativa. Se desarrolla como un proyecto de equipo de empresa en el que trabajaba como desarrollador frontend.",
+        "4": "Proyecto freelance desarrollado para una escuela de idiomas. Traducido a 2 idiomas, macedonio e inglés con i18next. Contiene formulario de contacto funcional con validación de entrada.",
         "3": "Una aplicación web receptiva que proporciona datos del total de casos infectados, recuperados, activos y de muerte por coronavirus a nivel mundial y por país. Los datos se presentan con números, gráficos y un mapa.",
         "2": "Weathery proporciona datos sobre las condiciones meteorológicas actuales, el pronóstico y el índice de calidad del aire. Contiene un buscador de ubicación automático y permite una búsqueda personalizada.",
         "1": "La versión anterior del sitio web de mi portafolio personal. Contiene formulario de contacto funcional con validación de entrada.",

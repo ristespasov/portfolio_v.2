@@ -16,6 +16,7 @@
     "Projects": {
         "section_title": "Projects",
         "5": "Booking platform with a wide range of sports and recreation offers. It is developed as a company team project where I was working as a frontend developer.",
+        "4": "Freelance project developed for a language school. Translated into 2 languages, Macedonian & English with i18next. Contains functional contact form with input validation.",
         "3": "A responsive web app that provides data of total infected, recovered, active, and death cases from Coronavirus globally and by country. The data is presented with numbers, charts, and a map.",
         "2": "Weathery provides data for current weather conditions, forecast, and air quality index. Contains an auto location finder and allows a custom search.",
         "1": "The previous version of my personal portfolio website. Contains functional contact form with input validation.",
