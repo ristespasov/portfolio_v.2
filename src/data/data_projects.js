@@ -18,8 +18,8 @@ const projectsData = {
     },
     {
         title: "Language school",
-        description: "Projects.3",
-        stack: "React, Material UI",
+        description: "Projects.4",
+        stack: "React, Material UI, i18next",
         image: project_4,
         btn_live: "Projects.live",
         btn_source: "Projects.code",
