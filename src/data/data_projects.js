@@ -24,7 +24,7 @@ const projectsData = {
         btn_live: "Projects.live",
         btn_source: "Projects.code",
         code: '',
-        live: 'https://app.freefor.ch/'
+        live: 'https://language-school-rs.netlify.app/'
     },
     {
         title: "Covid-19 tracker",
