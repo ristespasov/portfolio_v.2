@@ -7,7 +7,7 @@ import projectsData from '../data/data_projects'
 import Title from '../components/Title'
 import Project from '../components/Project'
 import Button from '../components/Button'
-import { Fade } from 'react-reveal'
+import { Fade, Slide } from 'react-reveal'
 
 // Context
 import Context from '../context/context'
@@ -36,13 +36,15 @@ const Projects = () => {
                         />
                     ))
                 }
-                <Button
-                    styleClass="btn--tertiary btn--more"
-                    link="https://github.com/ristespasov"
-                    target="_blank"
-                >
-                    {t('Projects.more')} &#10140;
-                </Button>
+                <Slide left duration={1000} delay={500} distance="50px">
+                    <Button
+                        styleClass="btn--tertiary btn--more"
+                        link="https://github.com/ristespasov"
+                        target="_blank"
+                    >
+                        {t('Projects.more')} &#10140;
+                    </Button>
+                </Slide>
             </div>
         </div >
     )
